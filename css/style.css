@@ -8,7 +8,7 @@
 :root{
     /* Colores */
     --bitcon-orage: #f7931a;
-    --soft-oragen: #FFE9D5;
+    --soft-orange: #FFE9D5;
     --secundary-blue:#1A9AF7;
     --soft-blue: #E7F5FF;
     --warm-black: #201E1C;
@@ -213,3 +213,68 @@ main{
     background-position: center;
     background-repeat: no-repeat;
 }       
+
+.currency-table--date{
+    width:190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+    /* font-size: 1.2rem; */
+}
+.currency-table--date p{
+    /* margin: 7px; */
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+    
+}
+
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+.product-detail--patata-logo{
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    background-image: url('../assets/imgs/papa-rigth.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    left: calc(50% - 20px);
+    top: -11px;
+}
+
+.product-detail--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product-detail--title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.product-detail--title p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
